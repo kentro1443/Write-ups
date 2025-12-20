@@ -32,8 +32,11 @@ I looked at the memory address passed to the function (```DAT_08048dc4``` & ```D
 
 ![Screenshot](../images/root-me/5.png)
 
-- Short (key): ```18 d6 15 ca fa 77```
-- Long (Ciphertext): ```50 b3 67 af a5 0e 77 a3 4a a2 9b 01 7d 89 61 a5 a5 02 76 b2 70 b8 89 03 79 b8 71 95 9b 28 74 bf 61 be 96 12 47 95 3e e1 a5 04 6c a3 73 ac 89```
+
+- Short : ```18 d6 15 ca fa 77```
+- Long : ```50 b3 67 af a5 0e 77 a3 4a a2 9b 01 7d 89 61 a5 a5 02 76 b2 70 b8 89 03 79 b8 71 95 9b 28 74 bf 61 be 96 12 47 95 3e e1 a5 04 6c a3 73 ac 89```
+
+As there are a long and a short string, this is the **Rolling XOR (Vigenère)** encryption. The program uses a short "Key" string to decrypt a long "Cipher" string byte-by-byte.
 
 ### 2. Solver script
 ```python
