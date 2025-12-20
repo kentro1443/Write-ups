@@ -52,5 +52,5 @@ for char in strings:
 print(password)
 ```
 
-The passwword is: ```
+The password is: ```
 Here_you_have_to_understand_a_little_C++_stuffs ```
