@@ -1,4 +1,4 @@
-### Transformation (picoCTF 2021)
+# Transformation (picoCTF 2021)
 ## Analysis
 
 The challenge gives us a snippet of Python code and a file named enc containing strange Chinese/Unicode characters.
